@@ -1,0 +1,49 @@
+libg2d-dpu (2.1.14-1) bookworm; urgency=medium
+
+  * Team upload.
+  * New upstream release 2.1.14-6a00326.
+
+ -- Carlos Henrique Lima Melara <carlos.melara@toradex.com>  Mon, 28 Oct 2024 17:33:05 -0300
+
+libg2d-dpu (2.1.12-1) UNRELEASED; urgency=medium
+
+  * Team upload.
+  * New upstream release 2.1.12-ee47ef7.
+
+ -- Carlos Henrique Lima Melara <carlos.melara@toradex.com>  Mon, 28 Oct 2024 17:27:42 -0300
+
+libg2d-dpu (2.1.2-1) testing; urgency=medium
+
+  * update to NXP BSP 5.15.52-2.1.0
+
+ -- Abdur Rehman <abdur.rehman@toradex.com>  Sat, 31 Dec 2022 15:34:33 +0500
+
+libg2d-dpu (2.1.0-1) testing; urgency=medium
+
+  * update to NXP BSP 5.15.32-2.0.0
+
+ -- Abdur Rehman <abdur.rehman@toradex.com>  Wed, 31 Aug 2022 17:48:03 +0500
+
+libg2d-dpu (1.8.14-1) testing; urgency=medium
+
+  * update to NXP BSP L5.4.70_2.3.2
+
+ -- Abdur Rehman <abdur.rehman@toradex.com>  Tue, 11 May 2021 18:43:06 +0500
+
+libg2d-dpu (1.8.12-1) unstable; urgency=medium
+
+  * update to NXP BSP L5.4.x_2.3.0
+
+ -- Dejan Jesenko <dejan.jesenko@toradex.com>  Tue, 16 Feb 2021 11:20:38 +0000
+
+libg2d-dpu (1.8.7-2) unstable; urgency=medium
+
+  * enable update-alternatives for libg2d and g2d_samples
+
+ -- Rafael Lorandi <rafael.lorandi@toradex.com>  Tue, 11 Aug 2020 18:19:34 -0300
+
+libg2d-dpu (1.8.7-1) unstable; urgency=medium
+
+  * update to NXP BSP rel_imx_5.4.24_2.1.0
+
+ -- Abdur Rehman <abdur.rehman@toradex.com>  Tue, 21 Jul 2020 16:26:06 +0500

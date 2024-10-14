@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+
+# export DH_VERBOSE=1
+
+FILENAME="imx-dpu-g2d-v1-2.1.14-6a00326"
+URL="https://www.nxp.com/lgfiles/NMG/MAD/YOCTO/$(FILENAME).bin"
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	wget $(URL) && chmod +x $(FILENAME).bin
+	./$(FILENAME).bin --auto-accept
+	mv $(FILENAME)/g2d/* .
+	rm -rf $(FILENAME)
+
+override_dh_strip_nondeterminism:
+
+override_dh_strip:
+	dh_strip --no-automatic-dbgsym

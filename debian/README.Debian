@@ -1,0 +1,13 @@
+README for libg2d-dpu
+---------------------
+
+libg2d-dpu is the counterpart of libg2d-viv for iMX8 and iMX8X SoMs. It
+provides some of the same header files as libg2d-dev such as g2d.h and
+g2dExt.h, therefore these files are not added to libg2d-dpu package in order to
+avoid conflicting so the libraries can be co-installed.
+
+We also use the update-alternatives mechanism to allow one to set the correct
+g2d implementation in run-time, whether libg2d.so.2 points to libg2d-dpu or
+libg2d-viv.
+
+ -- Carlos Henrique Lima Melara <carlos.melara@toradex.com>  Tue, 29 Oct 2024 10:02:52 -0300

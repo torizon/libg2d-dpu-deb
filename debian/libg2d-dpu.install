@@ -1,0 +1,1 @@
+usr/lib/libg2d-dpu.so.* usr/lib/${DEB_HOST_GNU_TYPE}/
