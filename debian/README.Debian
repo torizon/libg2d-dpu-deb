@@ -7,7 +7,7 @@ g2dExt.h, therefore these files are not added to libg2d-dpu package in order to
 avoid conflicting so the libraries can be co-installed.
 
 We also use the update-alternatives mechanism to allow one to set the correct
-g2d implementation in run-time, whether libg2d.so.2 points to libg2d-dpu or
-libg2d-viv.
+g2d implementation in run-time, whether libg2d.so.2 points to libg2d-dpu.so.2 or
+libg2d-viv.so.2.
 
  -- Carlos Henrique Lima Melara <carlos.melara@toradex.com>  Tue, 29 Oct 2024 10:02:52 -0300
