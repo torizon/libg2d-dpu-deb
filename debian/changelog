@@ -3,7 +3,7 @@ libg2d-dpu (2.1.14-1) bookworm; urgency=medium
   * Team upload.
   * New upstream release 2.1.14-6a00326.
 
- -- Carlos Henrique Lima Melara <carlos.melara@toradex.com>  Mon, 28 Oct 2024 17:33:05 -0300
+ -- Carlos Henrique Lima Melara <carlos.melara@toradex.com>  Tue, 29 Oct 2024 16:46:55 -0300
 
 libg2d-dpu (2.1.12-1) UNRELEASED; urgency=medium
 
