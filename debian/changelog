@@ -1,3 +1,12 @@
+libg2d-dpu (2.2.0-1) bookworm; urgency=medium
+
+  * Team upload.
+  * New upstream release 2.2.0-7943590.
+  * d/libg2d-dpu.links: update symlink to match newer library version.
+  * d/libg2d-dpu.symbols: add symbols from new release.
+
+ -- Carlos Henrique Lima Melara <carlos.melara@toradex.com>  Mon, 27 Jan 2025 12:56:47 -0300
+
 libg2d-dpu (2.1.14-1) bookworm; urgency=medium
 
   * Team upload.
