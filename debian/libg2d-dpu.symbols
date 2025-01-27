@@ -14,6 +14,7 @@ libg2d.so.2 libg2d
  DpuDisableSourceGlobalAlpha@Base 2.1.2
  DpuDisableSourcePremul@Base 2.1.2
  DpuDisableStretch@Base 2.1.2
+ DpuDisableWarp@Base 2.2.0
  DpuDispatch@Base 2.1.2
  DpuEnableAlphaBlend@Base 2.1.2
  DpuEnableCscMatrix@Base 2.1.2
@@ -90,6 +91,7 @@ libg2d.so.2 libg2d
  g2d_opencl_conversion@Base 2.1.2
  g2d_query_cap@Base 2.1.2
  g2d_query_feature@Base 2.1.2
+ g2d_query_hardware@Base 2.2.0
  g2d_set_clipping@Base 2.1.2
  g2d_set_csc_matrix@Base 2.1.2
  g2d_set_warp_coordinates@Base 2.1.2
